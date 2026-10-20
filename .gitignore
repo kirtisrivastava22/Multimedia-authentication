@@ -1,8 +1,30 @@
+# Python
 __pycache__/
+*.pyc
+.venv/
+venv/
 .ipynb_checkpoints/
-*.pth
-*.pt
-*.ckpt
+
+# Data and large artefacts (never commit)
 data/
-datasets/
-.env
+faces/
+frames/
+features/
+*.npz
+*.pt
+*.mp4
+*.avi
+*.zip
+weights_out/
+
+# Weights: only the exported, stripped files are committed
+*.pth
+!weights/*.pth
+
+# Downloaded at runtime
+weights/*.tflite
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
