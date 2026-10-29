@@ -1,3 +1,0 @@
-Operating Point,Accuracy,Precision,Recall,F1,False Positives,False Negatives
-Default (0.50),0.8565,0.9106,0.9209,0.9157,32,28
-Selected (0.15),0.8636363636363636,0.9024390243902439,0.940677966101695,0.921161825726141,36,21

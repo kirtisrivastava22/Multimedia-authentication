@@ -1,0 +1,5 @@
+Model,ROC-AUC,AUC 95% CI,Bal.acc @0.5,REAL recall @0.5,FAKE recall @0.5,Tuned thr,Bal.acc @thr,Bal.acc 95% CI,REAL recall @thr,FAKE recall @thr
+Spatial ResNet18,0.7523,0.684-0.819,0.694,0.562,0.825,0.62,0.701,0.627-0.757,0.656,0.746
+Frequency DWT ResNet18,0.6845,0.610-0.764,0.634,0.516,0.751,0.6,0.657,0.594-0.724,0.703,0.61
+Fixed fusion (concat),0.77,0.704-0.833,0.705,0.594,0.816,0.77,0.682,0.627-0.743,0.812,0.551
+Adaptive gated fusion,0.7737,0.711-0.837,0.647,0.422,0.873,0.78,0.68,0.641-0.767,0.719,0.641

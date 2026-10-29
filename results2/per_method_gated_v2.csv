@@ -1,0 +1,7 @@
+Class / method,Videos,Correct (%)
+Deepfakes,60,80.0
+Face2Face,70,58.6
+FaceShifter,76,73.7
+FaceSwap,66,62.1
+NeuralTextures,82,50.0
+REAL (original),64,71.9
